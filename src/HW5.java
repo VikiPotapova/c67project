@@ -16,5 +16,7 @@ public class HW5 {
         }
         System.out.println();
         System.out.println(sum);
+
+        System.out.println("Home new branch");
     }
 }
