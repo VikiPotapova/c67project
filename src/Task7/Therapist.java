@@ -1,9 +1,9 @@
 package Task7;
 
 public class Therapist extends Doctor {
+    int plan;
     @Override
     public void treat() {
-
         System.out.println("Prescribe medication");
     }
 
@@ -13,10 +13,10 @@ public class Therapist extends Doctor {
         Therapist t = new Therapist();
         Dentist d = new Dentist();
 
-        if (p.getTreatmentPlan() == 1) {
+        if (plan == 1) {
             p.setDr("Surgeon");
             s.treat();
-        } else if (p.getTreatmentPlan() == 2) {
+        } else if (plan == 2) {
             p.setDr("Dentist");
             d.treat();
         } else {
