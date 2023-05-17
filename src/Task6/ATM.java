@@ -19,7 +19,6 @@ public class ATM {
     int put(int cashIn) {
         System.out.println(cashIn + " $ has been added");
         return sumOfMoney += cashIn;
-
     }
 
     boolean take(int cashOut) {
