@@ -2,24 +2,26 @@ package Task7;
 
 public class Patient {
     private int treatmentPlan;
-    private String dr;
+    private Doctor doctor;
 
-    public void setDr(String dr) {
-        this.dr = dr;
-    }
-
-    public String getDr() {
-        return dr;
-    }
-
-    public void setTreatmentPlan(int treatmentPlan) {
-
+    public Patient(int treatmentPlan) {
         this.treatmentPlan = treatmentPlan;
     }
 
     public int getTreatmentPlan() {
-
         return treatmentPlan;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public void setTreatmentPlan(int treatmentPlan) {
+        this.treatmentPlan = treatmentPlan;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
     }
 }
 

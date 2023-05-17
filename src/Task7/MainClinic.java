@@ -2,10 +2,8 @@ package Task7;
 
 public class MainClinic {
     public static void main(String[] args) {
-        Patient patient = new Patient();
+        Patient patient = new Patient(1);
         Therapist therapist = new Therapist();
-        patient.setTreatmentPlan(1);
-        therapist.plan = patient.getTreatmentPlan();
-        therapist.appointDoctor();
+        therapist.appointDoctor(patient);
     }
 }
