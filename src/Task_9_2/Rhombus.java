@@ -8,22 +8,6 @@ public class Rhombus extends Figure {
         this.side = side;
     }
 
-    public void setSide(double side) {
-        this.side = side;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getSide() {
-        return side;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
     @Override
     double findSquare() {
         return side * height;

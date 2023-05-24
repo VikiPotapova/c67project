@@ -7,14 +7,6 @@ public class Square extends Figure {
         this.side = side;
     }
 
-    public void setSide(double side) {
-        this.side = side;
-    }
-
-    public double getSide() {
-        return side;
-    }
-
     @Override
     double findSquare() {
         return Math.pow(side, 2);

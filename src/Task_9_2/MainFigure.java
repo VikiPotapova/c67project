@@ -14,7 +14,7 @@ public class MainFigure {
             per = figure[i].findPerimeter();
             sum = sum + per;
         }
-            System.out.println(sum);
+        System.out.println(sum);
 
     }
 }
