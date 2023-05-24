@@ -12,14 +12,6 @@ public class Triangle extends Figure {
         this.side2 = side2;
     }
 
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public void setBase(double base) {
-        this.base = base;
-    }
-
     @Override
     double findSquare() {
         return (base / 2) * height;

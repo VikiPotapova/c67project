@@ -7,14 +7,6 @@ public class Circle extends Figure {
         this.radius = radius;
     }
 
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
     @Override
     double findSquare() {
         return Math.PI * Math.pow(radius, 2);
