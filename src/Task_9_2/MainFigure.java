@@ -8,10 +8,13 @@ public class MainFigure {
         figure[2] = new Square(20.2);
         figure[3] = new Rhombus(5.8);
         figure[4] = new Circle(15);
-
+        double sum = 0;
+        double per;
         for (int i = 0; i < 5; i++) {
-            System.out.println(figure[i].findPerimeter());
+            per = figure[i].findPerimeter();
+            sum = sum + per;
         }
+            System.out.println(sum);
 
     }
 }
