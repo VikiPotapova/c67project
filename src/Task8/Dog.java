@@ -8,7 +8,7 @@ public class Dog extends Animal {
         System.out.println("Woof-woof");
     }
 
-    static void eatDog (String food) {
+    static void eatDog(String food) {
         if (food == "Bone") {
             System.out.println("I like chewing bones");
         } else {

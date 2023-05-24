@@ -3,7 +3,7 @@ package Task8;
 public class MainAnimal {
     public static void main(String[] args) {
         Dog.voiceOfDog();
-        Dog.eatDog("Bone");
+        Dog.eatDog("Milk");
         Tiger tiger = new Tiger();
         Rabbit rabbit = new Rabbit();
         tiger.voice();
