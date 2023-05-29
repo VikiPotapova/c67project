@@ -23,7 +23,9 @@ public class MainUser {
         System.out.println(user_1.equals(user_2));
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the clone type");
         String cloneMethod = scanner.nextLine();
+        System.out.println("Enter the id");
         int id = scanner.nextInt();
 
         if (cloneMethod.equals("shallow") && (id == user_1.hashCode() || id == user_2.hashCode())) {
