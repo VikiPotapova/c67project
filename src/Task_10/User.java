@@ -58,3 +58,4 @@ public class User implements Cloneable {
     }
 
 }
+//переопределить для глубокого.

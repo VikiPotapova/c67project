@@ -17,9 +17,11 @@ public class HomeWork11 {
         System.out.println("The longest line is: " + array[2]);
         System.out.println("The length of the shortest one is: " + array[0].length());
         System.out.println("The length of the longest one is: " + array[2].length());
+        // переделать.
 
         // task 2
         System.out.println("Sorting: " + Arrays.toString(array));
+// надо переделать пузырьком!!!!!!!!!!!
 
         // task 3
         String newLine = line1.concat(line2) + line3;
@@ -67,6 +69,16 @@ public class HomeWork11 {
         } else {
             System.out.println("There are no lines which consist of different symbols");
         }
+// переделать в циклф. 1)переборка три цикла (первый символы, второй все кроме него)
+        // boolean flag = false;
+        //
+        // for (String string : array){
+        //for (int i = 0; i <string.length-1;i++){
+        //for (int j = 0; j <string.length;i++){
+        //if(string.charAt(i) != string.charAt(k)){
+        //flag = true;
+        //else
+        // flag = false; break}}
 
         // task 5
         String str = "Hello";
@@ -74,6 +86,7 @@ public class HomeWork11 {
         char[] a = str.toCharArray();
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
+        //переписать у стаса
     }
 }
 
