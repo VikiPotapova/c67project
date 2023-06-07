@@ -19,7 +19,7 @@ public class ExtraTask12 {
         while (matcher2.find()) {
             System.out.println("phone number: " + matcher2.group());
         }
-        Pattern pattern3 = Pattern.compile("\\d{4}\\-\\d{4}\\-\\d{2}");
+        Pattern pattern3 = Pattern.compile("\\d{4}-\\d{4}-\\d{2}");
         Matcher matcher3 = pattern3.matcher(line);
         while (matcher3.find()) {
             System.out.println("document number: " + matcher3.group());
