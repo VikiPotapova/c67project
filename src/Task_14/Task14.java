@@ -40,10 +40,8 @@ public class Task14 {
         for (String s : arr) {
             if (s.matches("docnum\\w{9}") || s.matches("contract\\w{7}")) {
                 valid.write(s + "\n");
-                valid.flush();
             } else {
                 invalid.write(s + " - does not match the requirements" + "\n");
-                invalid.flush();
             }
         }
         valid.close();
