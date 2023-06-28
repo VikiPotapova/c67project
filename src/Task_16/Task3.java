@@ -2,7 +2,7 @@ package Task_16;
 
 public class Task3 {
     public static void main(String[] args) {
-        String line = ")[{Hello ((world}])";
+        String line = "(ABC}{DEF)";
         char[] arrayCh = line.toCharArray();
         int openedParentheses = 0;
         int closedParentheses = 0;

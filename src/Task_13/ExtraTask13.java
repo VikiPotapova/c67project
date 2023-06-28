@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 public class ExtraTask13 {
     public static void main(String[] args) {
+        /* try{ system.exit ()*/
         try {
             FileInputStream s = new FileInputStream("D:\\file.txt");
             try {

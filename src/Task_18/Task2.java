@@ -3,8 +3,6 @@ package Task_18;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Collections;
-import java.util.stream.Collectors;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -22,7 +20,8 @@ public class Task2 {
                 .filter(a -> a.getKey().toString().matches("([12589])|13"))
                 .filter(x -> x.getValue().length() % 2 != 0)
                 .map(Map.Entry::getValue)
-                .peek(e -> System.out.print(new StringBuilder(String.valueOf(e)).reverse() + " "))
+                .map(e -> new StringBuilder(e).reverse().toString())
                 .toList();
+        System.out.println(list);
     }
 }

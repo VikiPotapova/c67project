@@ -7,7 +7,15 @@ import java.util.HashMap;
 public class Task1 {
     public static void main(String[] args) {
         String[] array = new String[]{"v", "i", "k", "k", "i"};
-        Arrays.sort(array);
+        HashMap<String, Boolean> map = new HashMap<>();
+        for(String str : array){
+            if (map.containsKey(str)){
+                map.replace(str, true);
+            }else{
+                map.put(str, false);
+            }
+        }
+       /* Arrays.sort(array);
         HashMap<String, Boolean> map = new HashMap<>();
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
@@ -17,7 +25,7 @@ public class Task1 {
                     map.put(array[j],false);
                 }
             }
-        }
+        }*/
             System.out.println(map);
         }
     }
